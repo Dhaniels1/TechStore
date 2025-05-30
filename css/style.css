@@ -1,0 +1,134 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+header 
+{
+     background-color: #1e497e;
+     padding: 13px 30px;
+     color: #fff;
+     text-align: center;
+}
+
+.nome-loja
+{
+     font-size: 26px;
+     font-weight: 600;
+     display: inline-block;
+     width: 200px;
+}
+
+nav
+{
+     display: inline-block;
+     width: 400px;
+}
+
+body
+{
+     font-family: Arial, sans-serif;
+}
+
+.menu
+{
+     list-style: none ;/*remove marcadores*/
+}
+
+.item-menu 
+{
+     display: inline-block;/*coloca os itens da lista em linha*/
+     margin: 10px 15px;
+}
+
+.item-menu a
+{
+     text-decoration: none;
+     color: #fff;
+}
+
+.produto{
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 251px;
+    
+}
+
+.text-produto{
+     padding: 15px;
+
+}
+
+.img-produto img{
+ height: 200px;
+
+}
+.img-produto{
+     width: 250px;
+     overflow: hidden;
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+   /* border-radius: 15px 15px 0 0 ;*/
+}
+.vitrine{
+     text-align: center;
+}
+
+.categoria{
+     font-size: 48px;
+     text-align: center;
+     margin: 40px 0 20px;
+     font-weight: 700;
+}
+
+.nome-prod{
+     font: 20px;
+     font-weight: 600;
+     margin: 10px 0;
+}
+
+.descricao{
+      font-size: 14px;
+     /* text-align: justify;*/
+      margin: 10px 0 ;
+      height: 50px;
+      overflow: hidden;
+}
+.preco{
+     color: #1e497e;
+     font-size: 22px;
+     font-weight: 600;
+     margin: 15px 0;
+
+}
+.text-produto a{
+     width: 100%;
+     background-color: #1e497e;
+     color: #fff;
+     font-size: 18px;
+     display: inline-block;
+     padding: 10px;
+     box-sizing: border-box;
+     border-radius: 5px;
+     text-decoration: none;/*remover sublinhado*/
+     font-weight: 600;
+}
+
+footer {
+    
+     width: 100%;
+     background-color: #1e497e;
+     position: fixed;
+     bottom:0;
+     left:0;
+     padding: 25px 0;
+     color: #fff;
+     text-align: center;
+
+}
+main{
+     margin-bottom: 75px;/*MARGEN APOS O MAIN PARA DESOCONTAR O FOOTER*/
+}
