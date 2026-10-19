@@ -47,3 +47,23 @@ footer{background:#091220;color:#afc0dc;padding:29px 0}.footer-inner{display:fle
 @media(max-width:900px){.hero .container{grid-template-columns:1fr;gap:5px}.hero-copy{max-width:680px}.hero-art{max-width:500px;width:100%;margin-inline:auto}.vitrine{grid-template-columns:repeat(2,minmax(0,1fr))}.nav-badge{display:none}}
 @media(max-width:600px){.container{width:calc(100% - 32px)}.cabecalho-conteudo{flex-wrap:wrap;justify-content:center;padding-block:17px;gap:13px}.menu{gap:22px}.hero .container{padding-block:55px}.hero h2{font-size:clamp(39px,10vw,53px)}.hero-art{height:290px}.art-screen{width:80%}.art-screen .glyph{font-size:80px}.art-base{display:none}.art-floating{right:0;font-size:10px}.categories-band .container{flex-direction:column;justify-content:center;gap:2px;text-align:center;padding-block:18px}.secao-produtos{padding-block:60px}.secao-cabecalho{display:block}.secao-cabecalho>p:last-child{margin-top:14px}.vitrine{grid-template-columns:1fr}.sobre{padding:65px 0}.sobre-content{grid-template-columns:1fr;gap:20px}.footer-inner{display:block}.footer-inner a{display:inline-block;margin-top:12px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+
+/* Imagens conceituais geradas por IA recortadas de um único WebP otimizado. */
+.generated-tech{display:block;width:100%;height:100%;overflow:hidden}
+.hero-art>.hero-tech-image{position:relative;z-index:1;height:362px;border-radius:18px;box-shadow:17px 22px 55px rgba(0,0,0,.5);border:1px solid #344d72}
+.hero-art:before{z-index:0}
+.img-produto>.generated-tech{width:100%;height:100%;transition:transform .22s}
+.produto:hover .generated-tech{transform:scale(1.035)}
+.art-floating{z-index:2}
+.inspiration{background:#0a1529;color:#ecf5ff;padding:80px 0 91px}
+.inspiration .secao-cabecalho .eyebrow{color:#7bdfde}
+.inspiration .secao-cabecalho>p:last-child{color:#a8b9d8}
+.inspiration-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.inspiration-card{border:1px solid #2c415e;background:#13213b;border-radius:17px;overflow:hidden}
+.inspiration-card>.generated-tech{height:205px;width:100%}
+.inspiration-card>div{padding:24px}
+.inspiration-card span{color:#80cedb;font-size:10px;letter-spacing:1.3px;font-weight:850}
+.inspiration-card h3{font:700 22px 'Outfit',sans-serif;margin:8px 0 2px}
+@media(max-width:900px){.hero-art>.hero-tech-image{height:290px}.inspiration-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.hero-art>.hero-tech-image{height:245px}.inspiration{padding:55px 0}.inspiration-grid{grid-template-columns:1fr}.inspiration-card>.generated-tech{height:245px}}
