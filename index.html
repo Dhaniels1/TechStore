@@ -1,88 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="TechStore: projeto acadêmico de vitrine de produtos de tecnologia com HTML e CSS.">
-  <meta name="theme-color" content="#173b6c">
-  <title>TechStore | Vitrine de Tecnologia</title>
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="TechStore: vitrine demonstrativa de produtos de tecnologia, projeto acadêmico desenvolvido com HTML e CSS.">
+<meta name="theme-color" content="#080d19"><title>TechStore — Seu próximo upgrade</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header id="inicio" class="cabecalho">
-    <div class="container cabecalho-conteudo">
-      <h1 class="nome-loja">Tech<span>Store</span></h1>
-      <nav aria-label="Navegação principal">
-        <ul class="menu">
-          <li class="item-menu"><a href="#inicio">Início</a></li>
-          <li class="item-menu"><a href="#produtos">Produtos</a></li>
-          <li class="item-menu"><a href="#sobre">Sobre</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero" aria-labelledby="apresentacao">
-      <div class="container">
-        <p class="eyebrow">Tecnologia para todos os estilos</p>
-        <h2 id="apresentacao">Seu próximo upgrade começa aqui.</h2>
-        <p>Explore esta vitrine de tecnologia desenvolvida como projeto acadêmico de Desenvolvimento Web I.</p>
-        <a href="#produtos" class="botao-destaque">Conhecer produtos</a>
-      </div>
-    </section>
-
-    <section id="produtos" class="secao-produtos container" aria-labelledby="titulo-produtos">
-      <div class="secao-cabecalho">
-        <p class="eyebrow">Nossa seleção</p>
-        <h2 id="titulo-produtos" class="categoria">Produtos em destaque</h2>
-        <p>Produtos e preços ilustrativos para demonstração de layout. Este site não realiza vendas.</p>
-      </div>
-      <div class="vitrine">
-        <article class="produto">
-          <div class="img-produto"><img src="img/mouse.jpg" alt="Mouse gamer RGB sobre fundo claro" loading="lazy"></div>
-          <div class="text-produto">
-            <h3 class="nome-prod">Mouse Gamer RGB</h3>
-            <p class="descricao">Alta precisão e iluminação RGB para uma experiência imersiva.</p>
-            <p class="preco">R$ 129,90</p>
-            <span class="produto-aviso">Produto demonstrativo</span>
-          </div>
-        </article>
-        <article class="produto">
-          <div class="img-produto"><img src="img/teclado.jpg" alt="Teclado mecânico gamer com iluminação RGB" loading="lazy"></div>
-          <div class="text-produto">
-            <h3 class="nome-prod">Teclado Mecânico RGB</h3>
-            <p class="descricao">Switches Blue com iluminação RGB e resposta tátil.</p>
-            <p class="preco">R$ 70,90</p>
-            <span class="produto-aviso">Produto demonstrativo</span>
-          </div>
-        </article>
-        <article class="produto">
-          <div class="img-produto"><img src="img/monitor.jpg" alt="Monitor de computador de 24 polegadas" loading="lazy"></div>
-          <div class="text-produto">
-            <h3 class="nome-prod">Monitor 24″ Full HD</h3>
-            <p class="descricao">Resolução 1920 × 1080 e frequência de atualização de 75 Hz.</p>
-            <p class="preco">R$ 1.290,90</p>
-            <span class="produto-aviso">Produto demonstrativo</span>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="sobre" class="sobre" aria-labelledby="titulo-sobre">
-      <div class="container">
-        <p class="eyebrow">Sobre o projeto</p>
-        <h2 id="titulo-sobre">Uma vitrine construída com HTML e CSS</h2>
-        <p>Este site foi desenvolvido para praticar semântica HTML, navegação por âncoras, composição de cartões, estilos responsivos e organização de arquivos.</p>
-        <a href="https://github.com/Dhaniels1/TechStore" target="_blank" rel="noopener noreferrer">Ver código no GitHub ↗</a>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">
-      <p>© 2025–2026 TechStore · Projeto demonstrativo de Desenvolvimento Web I.</p>
-    </div>
-  </footer>
-</body>
-</html>
+<div class="top-strip"><b>PROJETO ACADÊMICO</b> · Vitrine demonstrativa, sem vendas online</div>
+<header class="cabecalho" id="inicio"><div class="container cabecalho-conteudo"><h1 class="nome-loja">Tech<span>Store.</span></h1><nav aria-label="Navegação principal"><ul class="menu"><li class="item-menu"><a href="#inicio">Início</a></li><li class="item-menu"><a href="#produtos">Produtos</a></li><li class="item-menu"><a href="#sobre">Sobre</a></li></ul></nav><span class="nav-badge">HTML + CSS · 2026</span></div></header>
+<main>
+<section class="hero" aria-labelledby="titulo-principal"><div class="container"><div class="hero-copy">
+<p class="eyebrow">Tecnologia • Design • Experiência</p>
+<h2 id="titulo-principal">Prepare-se para o seu <span>próximo upgrade.</span></h2>
+<p>Uma experiência de vitrine moderna para explorar produtos de tecnologia. Projeto demonstrativo de Desenvolvimento Web I, com HTML semântico e CSS responsivo.</p>
+<a class="botao-destaque" href="#produtos">Explorar vitrine <span aria-hidden="true">↗</span></a>
+<div class="hero-notes"><span>Layout responsivo</span><span>Sem dependências</span><span>Produtos ilustrativos</span></div>
+</div><div class="hero-art" aria-hidden="true"><div class="art-screen"><span class="glyph">T.</span></div><span class="art-base"></span><div class="art-floating">TECH EXPERIENCE<small>Front-end showcase ↗</small></div></div></div></section>
+<div class="categories-band"><div class="container"><b>Seu setup, seu estilo.</b><span>PERIFÉRICOS</span><span>MONITORES</span><span>TECNOLOGIA</span><span>DESIGN</span></div></div>
+<section class="secao-produtos container" id="produtos" aria-labelledby="titulo-produtos">
+<div class="secao-cabecalho"><div><p class="eyebrow">01 / Catálogo</p><h2 id="titulo-produtos" class="categoria">Escolhas em destaque.</h2></div><p>Uma seleção de produtos com preços fictícios para fins de apresentação. Não há estoque ou finalização de compra.</p></div>
+<div class="vitrine">
+<article class="produto"><div class="img-produto"><img src="img/mouse.jpg" alt="Mouse gamer RGB" loading="lazy"></div><div class="text-produto"><p class="prod-code">PERIFÉRICOS / 001</p><h3 class="nome-prod">Mouse Gamer RGB</h3><p class="descricao">Alta precisão e iluminação RGB para completar seu setup.</p><p class="preco">R$ 129,90</p><span class="produto-aviso">PRODUTO DEMONSTRATIVO</span></div></article>
+<article class="produto"><div class="img-produto"><img src="img/teclado.jpg" alt="Teclado mecânico RGB" loading="lazy"></div><div class="text-produto"><p class="prod-code">PERIFÉRICOS / 002</p><h3 class="nome-prod">Teclado Mecânico RGB</h3><p class="descricao">Switches Blue com iluminação RGB e resposta tátil.</p><p class="preco">R$ 70,90</p><span class="produto-aviso">PRODUTO DEMONSTRATIVO</span></div></article>
+<article class="produto"><div class="img-produto"><img src="img/monitor.jpg" alt="Monitor de computador de 24 polegadas" loading="lazy"></div><div class="text-produto"><p class="prod-code">MONITORES / 003</p><h3 class="nome-prod">Monitor 24″ Full HD</h3><p class="descricao">Resolução 1920 × 1080 e atualização de 75 Hz.</p><p class="preco">R$ 1.290,90</p><span class="produto-aviso">PRODUTO DEMONSTRATIVO</span></div></article>
+</div></section>
+<section id="sobre" class="sobre" aria-labelledby="titulo-sobre"><div class="container sobre-content"><div><p class="eyebrow">02 / Sobre o projeto</p><h2 id="titulo-sobre">Construído para aprender. <br>Desenhado para impressionar.</h2></div><div><p>TechStore é um projeto acadêmico de frontend. A vitrine não realiza transações comerciais e os preços não representam ofertas reais. O foco é praticar estrutura semântica, hierarquia visual e experiência responsiva.</p><div class="sobre-tag"><strong>100% front-end.</strong><span>HTML5 · CSS3 · GitHub</span></div><a href="https://github.com/Dhaniels1/TechStore" target="_blank" rel="noopener noreferrer">Explorar código no GitHub ↗</a></div></div></section>
+</main>
+<footer><div class="container footer-inner"><p>© 2026 TechStore. Projeto acadêmico demonstrativo de Desenvolvimento Web I.</p><a href="https://github.com/Dhaniels1/TechStore" target="_blank" rel="noopener noreferrer">Código aberto no GitHub ↗</a></div></footer>
+</body></html>
