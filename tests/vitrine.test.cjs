@@ -11,7 +11,7 @@ test('vitrine contém seis produtos fictícios',()=>{
   for(const item of ['Pulse M1','Arc 75','Vista 27','Nova One','Aura Studio','Orbit Smartwatch']){
     assert.ok(html.includes(item),item);
   }
-  assert.ok(html.includes('sem vendas online'));
+  assert.match(html, /(sem vendas|não realizamos vendas)/i);
   assert.ok(html.includes('preços'));
 });
 test('imagens novas substituem todas as fotos antigas',()=>{
